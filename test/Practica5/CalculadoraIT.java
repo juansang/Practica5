@@ -42,14 +42,14 @@ public class CalculadoraIT {
     @Test
     public void testSuma() {
         System.out.println("suma");
-        int x = 0;
-        int y = 0;
+        int x = 12;
+        int y = 12;
         Calculadora instance = new Calculadora();
-        int expResult = 0;
+        int expResult = 24;
         int result = instance.suma(x, y);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        // fail("The test case is a prototype.");
     }
 
     /**
@@ -58,14 +58,14 @@ public class CalculadoraIT {
     @Test
     public void testResta() {
         System.out.println("resta");
-        int x = 0;
-        int y = 0;
+        int x = 10;
+        int y = 6;
         Calculadora instance = new Calculadora();
-        int expResult = 0;
+        int expResult = 4;
         int result = instance.resta(x, y);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        // fail("The test case is a prototype.");
     }
 
     /**
@@ -74,14 +74,14 @@ public class CalculadoraIT {
     @Test
     public void testMultiplicacion() {
         System.out.println("multiplicacion");
-        int x = 0;
-        int y = 0;
+        int x = 7;
+        int y = 8;
         Calculadora instance = new Calculadora();
-        int expResult = 0;
+        int expResult = 48;
         int result = instance.multiplicacion(x, y);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        // fail("The test case is a prototype.");
     }
 
     /**
@@ -90,14 +90,14 @@ public class CalculadoraIT {
     @Test
     public void testDivision() {
         System.out.println("division");
-        int x = 0;
-        int y = 0;
+        int x = 100;
+        int y = 3;
         Calculadora instance = new Calculadora();
-        int expResult = 0;
+        double expResult = 33.3;
         int result = instance.division(x, y);
-        assertEquals(expResult, result);
+        assertEquals(expResult, result,0.00);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        // fail("The test case is a prototype.");
     }
     
 }
