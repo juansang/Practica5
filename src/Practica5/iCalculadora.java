@@ -28,5 +28,5 @@ public interface iCalculadora {
      * declaración método division()
      * @param x,y
      */
-    public abstract int division(int x, int y);
+    public abstract double division(double x, double y);
 }

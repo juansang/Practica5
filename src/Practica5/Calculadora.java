@@ -38,7 +38,7 @@ public class Calculadora implements iCalculadora {
      * @param x,y
      * @return: devuelve resultado de x / y
      */
-    public int division(int x, int y) {
+    public double division(double x, double y) {
         return x / y;
     }
 
