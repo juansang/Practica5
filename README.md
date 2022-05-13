@@ -87,6 +87,6 @@ Por último, volvemos a la rama master, la fusionamos con la rama Tests y le pon
 
 
 ## Esquema ramas y commits
-<img width="452" alt="esquema" src="https://user-images.githubusercontent.com/91699247/168187530-c53de83d-59ca-498a-b04f-4788bf128d56.PNG">
+
 
 
