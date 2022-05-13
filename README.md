@@ -27,17 +27,18 @@ En este momento, hacemos el primer commit, que representa la creación de la cal
 
 Primero de todo creamos una nueva rama ( Tests ) donde tendremos el código refernte a la realización de las pruebas.
 
-Para crear los tests unitario, seguimos la configuración que se muestra en la imagen , con la que dispondremos de la clase Test y su librería :    
+Creamos la clase CalculadoraIT en JUnit, donde contendrá todo el código necesario para llevar a cabo los tests:
+
 <img width="273" alt="Captura3" src="https://user-images.githubusercontent.com/91699247/168183758-051214f9-5ae6-42de-8782-86292105eedb.PNG">
 
-Estos tests nos permitirá probar el funcionamiento de las clase Calculadora y los métodos referentes a las operaciones. 
+Estos tests nos permitirán probar el funcionamiento de las clase Calculadora y los métodos referentes a las operaciones. 
 
 Hacemos el segundo commit y le ponemos la versión 2.0.0
 
 
 ## Paso 4 : Validar el funcionamiento de los tests
 
-Para comprobar que los tests funcionan correctamente, llevamos a cabo una serie de pruebas unitarias
+Para comprobar que los tests funcionan correctamente, llevamos a cabo una serie de pruebas unitarias :
 
 En la primera, el test de la suma y de resta nos deben salir correctos y el de la multiplicación y división no deben pasar la prueba. Para llevar a cabo esta prueba,
 ponemos un resultado esperado diferente al resultado real de la multiplicación de ``7 x 8``  e intentamos dividir ``100/3``, operación la cual debe dar error
