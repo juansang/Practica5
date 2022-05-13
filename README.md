@@ -27,7 +27,7 @@ En este momento, hacemos el primer commit, que representa la creación de la cal
 
 Primero de todo creamos una nueva rama ( Tests ) donde tendremos el código refernte a la realización de las pruebas.
 
-Creamos la clase CalculadoraIT en JUnit, donde contendrá todo el código necesario para llevar a cabo los tests:
+Creamos la clase CalculadoraIT en JUnit, que contiene todo el código necesario para llevar a cabo los tests:
 
 <img width="273" alt="Captura3" src="https://user-images.githubusercontent.com/91699247/168183758-051214f9-5ae6-42de-8782-86292105eedb.PNG">
 
