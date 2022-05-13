@@ -41,7 +41,7 @@ Hacemos el segundo commit y le ponemos la versión 2.0.0
 Para comprobar que los tests funcionan correctamente, llevamos a cabo una serie de pruebas unitarias :
 
 En la primera, el test de la suma y de resta nos deben salir correctos y el de la multiplicación y división no deben pasar la prueba. Para llevar a cabo esta prueba,
-ponemos un resultado esperado diferente al resultado real de la multiplicación de ``7 x 8``  e intentamos dividir ``100/3``, operación la cual debe dar error
+ponemos un resultado esperado diferente al resultado real de la multiplicación de 7 x 8  e intentamos dividir 100/3, operación la cual debe dar error
 ya que el método división está definido e implementado con parámetros y retorno int en lugar de double.
 
 Hacemos nuevo commit como versión 2.1.0
