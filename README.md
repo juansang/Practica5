@@ -1,7 +1,7 @@
 # Practica 5 : Pruebas Unitarias
 
 
-Antes de comenzar a realizar las pruebas unitarias, debemos seguir una serie de pasos :
+Para la realización de esta práctica hemos seguido una serie de pasos :
 
 ## Paso 1 : Crear la interfaz iCalculadora
 
@@ -22,7 +22,7 @@ Creamos la clase Calculadora, donde se implementan los métodos definidos en la 
 En este momento, hacemos el primer commit, que representa la creación de la calculadora y se corresponde a la versión 1.0.0
 
 
-## Paso 3 : Crear test unitario
+## Paso 3 : Crear tests unitarios
 
 
 Primero de todo creamos una nueva rama ( Tests ) donde tendremos el código refernte a la realización de las pruebas.
@@ -51,6 +51,7 @@ Hacemos nuevo commit como versión 2.1.0
 <img width="283" alt="Captura9" src="https://user-images.githubusercontent.com/91699247/168186234-f93b8bce-b155-475a-9f89-b7c6330ebf33.PNG">
 
 Como consecuencia de lo mencionado, el resultado es el siguiente, donde vemos que solo el 50% de tests han pasado la prueba :
+
 <img width="472" alt="Captura10" src="https://user-images.githubusercontent.com/91699247/168186440-a23c8158-3746-4eed-8e42-279562f7ef90.PNG">
 
 
@@ -86,8 +87,7 @@ Por último, volvemos a la rama master, la fusionamos con la rama Tests y le pon
 
 
 
-
+### Esquema ramas y commits
 <img width="452" alt="esquema" src="https://user-images.githubusercontent.com/91699247/168187530-c53de83d-59ca-498a-b04f-4788bf128d56.PNG">
 
-Esquema ramas y commits
 
